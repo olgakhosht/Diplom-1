@@ -64,7 +64,6 @@ public class BurgerTest {
     @Test
     public void checkGetPrice(){
         testData();
-        //float price = burger.getPrice();
         assertEquals(9.0,burger.getPrice(),0.0000f);
     }
 
@@ -72,6 +71,5 @@ public class BurgerTest {
     public void checkGetReceipt(){
         testData();
         assertEquals(receipt, burger.getReceipt());
-        System.out.println(receipt);
     }
 }
